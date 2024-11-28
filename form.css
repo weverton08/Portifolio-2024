@@ -1,0 +1,19 @@
+.form{
+    border: 1px solid black;
+    border-radius: 5pt;
+    background-color: rgb(0, 238, 255);
+    margin: 5px;
+    padding: 5px;
+    max-width: 500px;
+    flex: 1 1 200px;
+    transition: 1s;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form:hover{
+    background-color: blueviolet;
+    flex: 1 1 300px;
+    transform: 1s;
+}

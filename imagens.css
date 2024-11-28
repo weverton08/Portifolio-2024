@@ -1,0 +1,11 @@
+img{
+    width: 300px;
+    aspect-ratio: 16/9;/* 4/3 */
+   
+    animation: 1s;
+}
+img:hover{
+    filter: blur(0px);
+    animation: 1s;
+    width: 400px;
+}
